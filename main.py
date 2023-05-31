@@ -6,6 +6,7 @@ main.py is a common name for the main Python module of a repository (an entry po
 to execute.
 """
 from utilities.math_utils import add_two_numbers
+from pandas_example.read_fixed_width_table import main as read_table
 
 
 # define a function
@@ -33,3 +34,4 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('IL')
     b = add_two_numbers(2, 'asdf')
+    c = read_table()

@@ -32,3 +32,7 @@ class TestAddTwoNumbers:
         # use this to compare float values
         #  see https://docs.pytest.org/en/7.3.x/reference/reference.html#pytest.approx
         assert actual == pytest.approx(expected)
+
+    def test_show_case_when_error_is_raised(self):
+        with pytest.raises(TypeError):
+            add_two_numbers(a=5, b='asdf')
