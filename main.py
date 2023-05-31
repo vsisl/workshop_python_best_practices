@@ -16,8 +16,14 @@ def print_hi(name):
     print(f'Hi, {name}')
 
 
-def main():
-    print_hi('IL')
+def add_two_numbers(a, b):
+    """Adds two numbers.
+
+    :param a: int or float
+    :param b: int or float
+    :return:
+    """
+    return a + b
 
 
 # The content of the following if-clause is only executed if this module is the module directly executed by Python.
@@ -26,11 +32,13 @@ def main():
 #
 # The if-clause indicates that this Python module is intended to be used as a script - i.e. it is intended to be
 #  directly executed. Other Python modules might not be intended for execution and might serve just as a library
-#  of Python objects to be used by other modules.
+#  of Python objects to be imported into other modules.
 #
-# Neither defining the main() function nor using the if __name__ == '__main__' clause is compulsory, however, it
-#  is a good indication to the user of your repository that this module is the entrypoint of the repo.
+# Using the if __name__ == '__main__' clause is not compulsory, however, it is a good indication to the user of
+#  your repository that this file is a script that can be executed.
 #
-# See more on this topic here: https://www.youtube.com/watch?v=g_wlZ9IhbTs
+# Some guides go even further and propose to wrap everything under __name__ == '__main__' into a main() function.
+#  See more on this topic here: https://www.youtube.com/watch?v=g_wlZ9IhbTs
 if __name__ == '__main__':
-    main()
+    print_hi('IL')
+    b = add_two_numbers(2, 'asdf')

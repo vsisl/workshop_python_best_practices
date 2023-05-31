@@ -12,3 +12,12 @@ Workshop slides
 Workshop slides can be found [here](https://docs.google.com/presentation/d/1hT2JyF19eoQq-5K4RAEcS0APURCI6J4uNkc2RYj07Fk/edit?usp=sharing). Authentication _might_ be required.
 
 
+How to run unit tests
+---------------------
+In this project, we use the pytest framework to create unit tests for individual Python objects (e.g. functions). To run all tests, execute the following command from project root:
+
+```bash
+$ python -m pytest tests/
+````
+
+Learn more about pytest [here](https://docs.pytest.org/en/7.3.x/).
