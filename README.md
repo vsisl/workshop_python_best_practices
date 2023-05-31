@@ -7,3 +7,8 @@ A README file like this should be a part of every repository. Use this file to e
 There are many resources online explaining how to write a good README file. [Here](https://www.makeareadme.com/) is one of them.
 
 
+Workshop slides
+---------------
+Workshop slides can be found [here](https://docs.google.com/presentation/d/1hT2JyF19eoQq-5K4RAEcS0APURCI6J4uNkc2RYj07Fk/edit?usp=sharing). Authentication _might_ be required.
+
+
