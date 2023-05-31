@@ -1,0 +1,37 @@
+# This is a comment. Use "#" to add a comment.
+#
+# conda virtual environment definition file
+#
+# ENVIRONMENT SETUP:
+#   1) execute the following command in terminal to create the environment
+#       $ conda env create -f environment.yml
+name: IL_workshop
+channels:           # see more about channels: https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-channels.html
+  - conda-forge
+dependencies:
+  - python
+  - pandas          # working with tabular data (Excel-like jobs)
+  - xlrd            # for loading xlsx into pandas DataFrames
+  - openpyxl        # for saving pandas DataFrames to xlsx
+  - vaex            # out-of-memory DataFrames
+  - numpy           # working with numerical arrays (MATLAB-like jobs)
+  - scipy           # for mathematics, science, and engineering
+  - pyne            # nuclear engineering toolkit
+  - matplotlib      # MATLAB-like plots
+  - plotly          # interactive plots
+  - pytest          # unit tests
+  - spyder          # development environment (simple IDE good for scripting and data analysis)
+  - jupyter         # jupyter notebooks
+  - nbformat        # for plotly plots to work properly in jupyter notebooks
+  - jupyterlab      # full-featured IDE, evolution of jupyter notebooks
+  - jupyterlab-git  # git plugin (GUI) for JupyterLab
+  - scrapy          # web scraping
+  - requests        # for making HTTP requests (e.g. for web scraping)
+  - beautifulsoup   # for parting HTML (e.g. when extracting certain information from a website)
+  - tqdm            # progress bars
+  - mako            # templating
+  - sqlalchemy      # working with SQL databases
+  - pip             # default package manager for python
+# Note: You can use pip to install packages that are not available through conda (I haven't encountered any such packages so far.)
+#  - pip:
+#    - package_to_be_installed_using_pip==version
