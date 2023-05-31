@@ -5,6 +5,7 @@ Python module is a text file with the .py extension. It contains Python code.
 main.py is a common name for the main Python module of a repository (an entry point) - the module the users are supposed
 to execute.
 """
+from utilities.math_utils import add_two_numbers
 
 
 # define a function
@@ -14,16 +15,6 @@ def print_hi(name):
     :param name: str; name to greet
     """
     print(f'Hi, {name}')
-
-
-def add_two_numbers(a, b):
-    """Adds two numbers.
-
-    :param a: int or float
-    :param b: int or float
-    :return:
-    """
-    return a + b
 
 
 # The content of the following if-clause is only executed if this module is the module directly executed by Python.

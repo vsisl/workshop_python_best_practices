@@ -6,7 +6,7 @@ Note that alternative testing frameworks exist - e.g. unittest https://docs.pyth
 """
 import pytest
 
-from main import add_two_numbers
+from utilities.math_utils import add_two_numbers
 
 
 class TestAddTwoNumbers:
