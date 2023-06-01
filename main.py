@@ -25,6 +25,10 @@ def add_two_numbers(a, b):
     """
     return a + b
 
+def new_function():
+    # just on the branch called "cool feature"
+    pass
+
 
 # The content of the following if-clause is only executed if this module is the module directly executed by Python.
 #  E.g. if we only imported the print_hi() function from this module, the content of this if-clause would not be
